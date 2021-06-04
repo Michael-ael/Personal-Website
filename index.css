@@ -287,7 +287,7 @@ img{
     row-gap: 2rem;
     text-align: center;
 }
-.about__img{
+/* .about__img{
     display: flex;
     justify-content: center;
     padding-top: 1rem;
@@ -299,7 +299,7 @@ img{
 }
 .about__img img{
     width: 100px;
-}
+} */
 .about__subtitle{
     font-size: var(--h2-font-size);
     color: var(--first-color);
