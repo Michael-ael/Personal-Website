@@ -188,13 +188,13 @@
                         <span class="contact__text"> </span>
                     </div>
 
-                    <form action="" class="contact__form">
+                    <form action="POST" data-netlify="true" class="contact__form">
                         <div class="contact__inputs">
-                            <input type="text" placeholder="Name" class="contact__input">
-                            <input type="mail" placeholder="Email" class="contact__input">
+                            <input type="text" placeholder="Name" class="contact__input" name="name" required>
+                            <input type="mail" placeholder="Email" class="contact__input" name="email" required>
                         </div>
 
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <textarea name="messgae" cols="0" rows="10" class="contact__input"></textarea>
 
                         <input type="submit" value="Send" class="contact__button">
                     </form>
