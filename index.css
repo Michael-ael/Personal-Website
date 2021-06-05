@@ -366,7 +366,7 @@ img{
     overflow: hidden;
 }
 .portfolio__img img{
-    border-radius: .5rem;
+    border-radius: .1rem;
 }
 .portfolio__link{
     position: absolute;
@@ -377,10 +377,18 @@ img{
     justify-content: center;
     align-items: center;
     background-color: rgba(255,255,255,.3);
-    border-radius: .5rem;
+    border-radius: .1rem;
     cursor: pointer;
-    backdrop-filter: blur(10px);
-    transition: .3s;
+    backdrop-filter: blur(5px);
+    transition: .5s;
+}
+
+.portfolio__link a{
+    background: var(--first-color);
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 10px;
+    outline: none;
 }
 .portfolio__img:hover .portfolio__link{
     bottom: 0;
