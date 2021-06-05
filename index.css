@@ -574,7 +574,8 @@ img{
 @media screen and (max-width: 600px) {
     .home__title-1{
         left: 5%;
-        bottom: 25%;
+        bottom: 30%;
+        top: 56%;
         width: 300px;
         font-size: 4rem;
         margin-bottom: 10px;
